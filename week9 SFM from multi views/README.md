@@ -1,7 +1,4 @@
----
-title: computer vision - Structure From Motion From Multiple Views - matlab
----
-# key
+# computer vision - Structure From Motion From Multiple Views - matlab
 the choose of scene should have as many features as possible, which means there should be many irregular shapes and the choosing should avoid plain places.
 
 # generate camera parameters
@@ -19,9 +16,9 @@ imshow(I)
   - add images to add checkerboard photos
   - enter the physical size of the checkerboard
   - delte the images with wrong directions (0,0 is the start point; x is the horizontal direction; y is the vertical direction)
+  - ![](assets/README-b3e34635.png)
   - calibrate
   - export to save the parameters as cameraParams.mat
-![](assets/README-b3e34635.png)
 
 # Read the input image Sequence
 images are stored in photos folder
